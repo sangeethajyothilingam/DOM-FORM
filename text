@@ -1,0 +1,25 @@
+function sub(){
+        let ele=document.createElement("span");
+        ele.innerHTML="Form Submitted";
+        ele.style.color="blue";
+        ele.style.fontsze="20px";
+        document.body.append(ele);
+     }
+
+
+     //get selected checkbox value
+
+
+
+var temp=[];
+let res=document.getElementsByTagName("checkbox").checked;
+temp.push(res);
+        if(temp.length>=2){
+        
+        }else{
+            alert("select minimum 2");
+        }
+
+
+
+        var gender = document.querySelector(`input[name="Gender"]:checked`).value;     

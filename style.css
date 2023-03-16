@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(240, 235, 235);
+}
+
+.container {
+    margin: 0px auto;
+    padding-left: 30px;
+    padding-right: 0px;
+    max-width: 1300px;
+}
+
+p,
+h1 {
+    padding: 5px 0px 0px 0px;
+    color: gray;
+}
+
+label {
+    font-weight: 400;
+    padding-top: 5px;
+    font-size: 18px;
+}
+
+#first-name,
+#last-name,
+#address,
+#pincode,
+#state,
+#country {
+    width: 300px;
+    border: 1px solid lightgray;
+}
+
+#submit {
+    width: 300px;
+    background-color: rgb(114, 109, 109);
+    margin-top: 10px;
+    color: white;
+}
+
+th {
+    background-color: rgb(31, 30, 30);
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: normal;
+}
